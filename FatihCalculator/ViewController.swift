@@ -15,6 +15,7 @@ class ViewController: UIViewController {
     var calculating = false
     var operation = 0
     
+    
     @IBOutlet weak var result: UILabel!
     
     @IBAction func numbers(_ sender: UIButton)
@@ -25,11 +26,13 @@ class ViewController: UIViewController {
             numberOnScreen = Double(result.text!)!
             calculating = false
         }
-        else
+      
+         else
         {
             result.text = result.text! + String(sender.tag)
             numberOnScreen = Double(result.text!)!
         }
+        
         
         
     }
@@ -88,11 +91,6 @@ class ViewController: UIViewController {
         }
     }
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-    }
-    
-        
     }
 
 

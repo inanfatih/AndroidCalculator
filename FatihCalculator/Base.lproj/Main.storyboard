@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1217" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
@@ -36,7 +36,6 @@
                                 </state>
                                 <connections>
                                     <action selector="numbers:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aSd-LM-F46"/>
-                                    <action selector="one:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4gD-hQ-2ux"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="2" contentMode="top" fixedFrame="YES" restorationIdentifier="two" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ycX-7p-tpe" userLabel="two" colorLabel="IBBuiltInLabel-Red">
@@ -49,7 +48,6 @@
                                 </state>
                                 <connections>
                                     <action selector="numbers:" destination="BYZ-38-t0r" eventType="touchUpInside" id="shA-dn-9y2"/>
-                                    <action selector="two:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZaB-aJ-Lwo"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="3" contentMode="top" fixedFrame="YES" restorationIdentifier="three" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W2Q-sv-p9x" userLabel="three" colorLabel="IBBuiltInLabel-Red">
@@ -62,7 +60,6 @@
                                 </state>
                                 <connections>
                                     <action selector="numbers:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rhA-u3-dq5"/>
-                                    <action selector="three:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sd8-Ua-DoB"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="11" contentMode="top" fixedFrame="YES" restorationIdentifier="plus" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cZL-3H-WYQ" userLabel="plus" colorLabel="IBBuiltInLabel-Red">
@@ -74,7 +71,6 @@
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <connections>
-                                    <action selector="add:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7P8-ze-omI"/>
                                     <action selector="operators:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Vg1-GE-fWV"/>
                                 </connections>
                             </button>
@@ -87,7 +83,6 @@
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <connections>
-                                    <action selector="four:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CKa-F1-hna"/>
                                     <action selector="numbers:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Aee-zK-apQ"/>
                                 </connections>
                             </button>
@@ -100,7 +95,6 @@
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <connections>
-                                    <action selector="five:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2KG-Pt-jIH"/>
                                     <action selector="numbers:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zsk-ya-dFa"/>
                                 </connections>
                             </button>
@@ -114,7 +108,6 @@
                                 </state>
                                 <connections>
                                     <action selector="numbers:" destination="BYZ-38-t0r" eventType="touchUpInside" id="g9P-Q1-HzL"/>
-                                    <action selector="six:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5r1-Yf-DBj"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="12" contentMode="top" fixedFrame="YES" restorationIdentifier="subtract" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1cG-HD-fuF" userLabel="minus" colorLabel="IBBuiltInLabel-Red">
@@ -127,7 +120,6 @@
                                 </state>
                                 <connections>
                                     <action selector="operators:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SJu-lV-4Oz"/>
-                                    <action selector="subtract:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Thj-UJ-t4D"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="100" contentMode="top" fixedFrame="YES" restorationIdentifier="equal" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R14-Ug-63a" userLabel="equal" colorLabel="IBBuiltInLabel-Red">
@@ -139,8 +131,6 @@
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <connections>
-                                    <action selector="equal:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7aK-Dx-d7R"/>
-                                    <action selector="operator:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kl8-gS-kdq"/>
                                     <action selector="operators:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XqE-hz-mcE"/>
                                 </connections>
                             </button>
@@ -152,9 +142,6 @@
                                 <state key="normal" title=".">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
-                                <connections>
-                                    <action selector="dot:" destination="BYZ-38-t0r" eventType="touchUpInside" id="T1h-jw-hzz"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="top" fixedFrame="YES" restorationIdentifier="zero" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Hh-7Y-aO1" userLabel="zero" colorLabel="IBBuiltInLabel-Red">
                                 <rect key="frame" x="33" y="533" width="148" height="70"/>
@@ -166,8 +153,6 @@
                                 </state>
                                 <connections>
                                     <action selector="numbers:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0Kj-1c-Sh8"/>
-                                    <action selector="one:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3D4-Cd-ERb"/>
-                                    <action selector="zero:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SPO-lR-L8J"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="7" contentMode="top" fixedFrame="YES" restorationIdentifier="seven" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UD7-DL-3b4" userLabel="seven" colorLabel="IBBuiltInLabel-Red">
@@ -180,7 +165,6 @@
                                 </state>
                                 <connections>
                                     <action selector="numbers:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jNe-0w-F1E"/>
-                                    <action selector="seven:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aQR-7O-xyy"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="8" contentMode="top" fixedFrame="YES" restorationIdentifier="eight" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rxZ-VS-Vhq" userLabel="eight" colorLabel="IBBuiltInLabel-Red">
@@ -192,7 +176,6 @@
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <connections>
-                                    <action selector="eight:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vuN-nD-YZJ"/>
                                     <action selector="numbers:" destination="BYZ-38-t0r" eventType="touchUpInside" id="V2A-hN-PQp"/>
                                 </connections>
                             </button>
@@ -205,7 +188,6 @@
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <connections>
-                                    <action selector="nine:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sSo-6k-NmC"/>
                                     <action selector="numbers:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CK9-Wt-psd"/>
                                 </connections>
                             </button>
@@ -218,7 +200,6 @@
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <connections>
-                                    <action selector="multiply:" destination="BYZ-38-t0r" eventType="touchUpInside" id="scD-ta-MjH"/>
                                     <action selector="operators:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Rhj-lT-vZK"/>
                                 </connections>
                             </button>
@@ -231,7 +212,7 @@
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <connections>
-                                    <action selector="clear:" destination="BYZ-38-t0r" eventType="touchUpInside" id="o0W-rb-gSM"/>
+                                    <action selector="operators:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wH6-sR-ozI"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="top" fixedFrame="YES" restorationIdentifier="minus" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B8s-3R-oFC" userLabel="negative" colorLabel="IBBuiltInLabel-Red">
@@ -242,9 +223,6 @@
                                 <state key="normal" title="∓">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
-                                <connections>
-                                    <action selector="minus:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QNq-Dc-ZRN"/>
-                                </connections>
                             </button>
                             <button opaque="NO" tag="14" contentMode="top" fixedFrame="YES" restorationIdentifier="divide" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H4k-Ee-kgN" userLabel="divide" colorLabel="IBBuiltInLabel-Red">
                                 <rect key="frame" x="267" y="221" width="70" height="70"/>
@@ -255,7 +233,6 @@
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <connections>
-                                    <action selector="divide:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gtY-aq-MGj"/>
                                     <action selector="operators:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uJ4-vz-4mv"/>
                                 </connections>
                             </button>
@@ -273,7 +250,6 @@
                     <toolbarItems/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
-                        <outlet property="operator" destination="R14-Ug-63a" id="coe-bt-JXJ"/>
                         <outlet property="result" destination="San-qO-Fsx" id="QvW-vB-wTw"/>
                     </connections>
                 </viewController>
